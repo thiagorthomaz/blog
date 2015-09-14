@@ -1,0 +1,11 @@
+<nav  role="navigation">
+
+  <div class="container" ng-app="blogMenu" ng-controller="MenuController">
+    <ul class="nav navbar-nav">
+      
+      <li ng-repeat="item in items"><a href="{{item.url}}" target="{{item.target}}">{{item.title}}</a></li>
+      
+    </ul>
+  </div>
+
+</nav>
